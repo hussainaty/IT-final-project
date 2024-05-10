@@ -37,7 +37,6 @@ html.lb-disable-scrolling {
 .lightbox a img {
   border: none;
 }
-
 .lb-outerContainer {
   position: relative;
   *zoom: 1;

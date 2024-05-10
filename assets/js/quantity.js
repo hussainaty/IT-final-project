@@ -3,7 +3,7 @@ function wcqib_refresh_quantity_increments() {
         var c = jQuery(b);
         c.addClass("buttons_added"), c.children().first().before('<input type="button" value="-" class="minus" />'), c.children().last().after('<input type="button" value="+" class="plus" />')
     })
-} 
+}  
 String.prototype.getDecimals || (String.prototype.getDecimals = function() {
     var a = this,
         b = ("" + a).match(/(?:\.(\d+))?(?:[eE]([+-]?\d+))?$/);

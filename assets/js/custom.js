@@ -1,5 +1,5 @@
 (function ($) {
-	
+	 
 	"use strict";
 	$('.owl-men-item').owlCarousel({
 		items:5,
