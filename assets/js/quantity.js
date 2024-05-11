@@ -12,7 +12,8 @@ String.prototype.getDecimals || (String.prototype.getDecimals = function() {
     wcqib_refresh_quantity_increments()
 }), jQuery(document).on("updated_wc_div", function() {
     wcqib_refresh_quantity_increments()
-}), jQuery(document).on("click", ".plus, .minus", function() {
+}), jQuery(document).on("click", ".plus, .minus",
+ function() {
     var a = jQuery(this).closest(".quantity").find(".qty"),
         b = parseFloat(a.val()),
         c = parseFloat(a.attr("max")),
